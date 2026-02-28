@@ -1,0 +1,114 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  /* cursor: none; */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #0c0404;
+}
+
+/* *:hover,
+*:active,
+*:focus {
+  cursor: none;
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background: #0C0404;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px #000000;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #717ebd;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #525f9e;
+}
+
+::-moz-selection {
+  color: #232946;
+  background-image: linear-gradient(45deg, #eebbc3, #b8c1ec);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+::selection {
+  color: #232946;
+  background: #a855f7;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.gradient-text {
+  background-color: #a855f7;
+  background-image: linear-gradient(315deg, #a855f7 0%, #6366f1 74%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text::selection {
+  -webkit-text-fill-color: #232946;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  background-color: #a855f7;
+  opacity: 0.5;
+  z-index: 999;
+}
+
+@keyframes cursorAnim {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(5);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.expand {
+  animation: cursorAnim 0.5s forwards;
+}
