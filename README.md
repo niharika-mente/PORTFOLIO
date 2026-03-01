@@ -31,14 +31,6 @@ This website is a modern, high-performance portfolio built using the **Next.js**
 -   **Project Showcase**: Categorized display of Web, Mobile, and UI/UX projects.
 -   **SEO Optimized**: Built with Next.js for better search engine visibility.
 
-## 📸 Screenshots
-
-| Landing Page | Projects View |
-| :---: | :---: |
-| ![Landing](public/images/niharika-2.png) | ![Projects](public/images/Sushi-Rush.png) |
-
-*(Note: Replace with actual screenshots for best effect)*
-
 ## 🛠️ Installation & Setup
 
 To run this project locally, follow these steps:
@@ -66,9 +58,7 @@ To run this project locally, follow these steps:
 
 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
 
-- **GitHub**: [niharika-mente](https://github.com/niharika-mente)
 - **LinkedIn**: [Niharika Mente](https://www.linkedin.com/in/niharika-mente-473434323)
-- **Instagram**: [___niharika___18](https://www.instagram.com/___niharika___18/)
 - **Email**: [menteniharika@gmail.com](mailto:menteniharika@gmail.com)
 
 ---
