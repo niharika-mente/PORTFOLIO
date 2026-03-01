@@ -14,9 +14,7 @@ export default function Skills(): JSX.Element {
             <div className=" md:ml-16 p-4 relative">
               <HeaderSmall text="What Do I Do?" />
               <h1 className="sm:w-4/5 mb-3 mt-1 text-md sm:text-5xl md:text-7xl lg:text-lg font-normal tracking-wide text-white leading-normal lg:leading-7">
-                I dance with pixels and logic, sculpting digital masterpieces
-                that blend artistry and functionality, breathing life into code.
-                In my free time, I design or play F1.
+                I’m a developer who dances with pixels and logic. Whether I’m optimizing a C++ algorithm for performance or tweaking CSS for the perfect shadow, my goal is the same: to breathe life into code and create something that works as good as it looks.
               </h1>
               <h1 className=" md:block mt-20 md:mt-6 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
                 Think. <span className="text-purple">Code.</span> Debug.

@@ -21,7 +21,7 @@ const socialMedia = [
     key: "1",
   },
   {
-    link: "https://www.instagram.com/harshith.mente/",
+    link: "https://www.instagram.com/___niharika___18/",
     image_file: "/images/skills/instagram.svg",
     alt_text: "Instagram",
     key: "3",
