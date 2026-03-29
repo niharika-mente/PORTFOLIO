@@ -37,7 +37,18 @@ const project = [
     description2:
       "Features custom Framer Motion animations for smooth transitions, a fully accessible architecture, and a personalized 3D character integration that bridges the gap between technology and personality.",
     img: require("../../public/images/portfolio.png"),
-    url: "https://github.com/joeyyy09/portfolio-2",
+    url: "https://github.com/niharika-mente/PORTFOLIO",
   },
+  {
+    id: 5,
+    title: "ThinkBoard:Save your Notes at the right moment!",
+    description1:
+      "A modern, full-stack brainstorming and idea-tracking application built with the MERN stack.",
+    description2:
+      " Integrated Upstash Redis for intelligent request rate limiting.",
+    img: require("../../public/images/ThinkBoard.png"),
+    url: "https://github.com/niharika-mente/ThinkBoard",
+  },
+
 ];
 export default project;
